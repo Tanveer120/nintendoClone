@@ -4,12 +4,16 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .nav_container
 {
     height: 60px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #fffffc;
+    background-color: white;
     align-content: center;
     justify-content: space-between;
 }
@@ -17,11 +21,6 @@
 .navLogo
 {
     height: 60px;
-}
-
-.searchCont
-{
-    background-color: blue;
 }
 
 .searchBar
@@ -32,7 +31,6 @@
     height: 50px;
     width: 500px;
     border-bottom: 2px solid black;
-    background-color: aqua;
 }
 
 .searchBar:hover
@@ -47,6 +45,7 @@
     border: 0;
     text-align: left;
     font-size: 1rem;
+    background-color: transparent;
 }
 
 .searchBar input:focus
@@ -63,7 +62,7 @@
 
 .searchBar select
 {
-    background-color: #fffffc;
+    background-color: transparent;
     border: 0;
     font-size: 0.8rem;
 }
@@ -84,7 +83,7 @@
 
 .linkContainer p{
     display: inline;
-    margin-right: 15px;
+    margin-right: 20px;
     font-size: 1rem;
 }
 
